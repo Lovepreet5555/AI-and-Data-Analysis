@@ -1,0 +1,36 @@
+ip a
+pip install python3-dotenv
+python3 --version
+
+python3 -m venv myenv
+
+apt install python3.10-venv
+sudo apt install python3.10-venv
+
+python3 main.py
+pip install pyspark
+pip list | grep pyspark
+pip install delta-spark
+
+source myenv/bin/activate
+systemctl --user restart docker-desktop
+
+pip install pyspark
+pip install delta-spark
+pip install kafka 
+pip install kafka-python 
+pip install numpy pandas seaborn
+pip install notebook
+
+spark_context.stop()
+
+export SPARK_LOCAL_IP=10.0.0.19
+docker compose up -d
+pip install kafka-python 
+python3 main.py
+python3 producer.py
+python3 consumer.py
+
+export SPARK_LOCAL_IP=10.0.0.19
+python3 main.py
+python3 ml.py
